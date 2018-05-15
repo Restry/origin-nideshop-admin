@@ -19,7 +19,7 @@ Node.js开源商城NideShop管理后台（基于Node.js、Vue.js、Element UI、
 + 修改api地址
 src/renderer/main.js
 ```
-Axios.defaults.baseURL = 'http://127.0.0.1:8360/admin/';  # admin/ 不可删除
+Axios.defaults.baseURL = '/';  # admin/ 不可删除
 ```
 + 运行
 ``` bash

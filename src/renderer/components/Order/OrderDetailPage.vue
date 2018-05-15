@@ -37,7 +37,7 @@
 
                 //加载品牌详情
                 let that = this
-                this.axios.get('http://127.0.0.1:8360/admin/brand/info', {
+                this.axios.get('/brand/info', {
                     params: {
                         id: that.infoForm.id
                     }

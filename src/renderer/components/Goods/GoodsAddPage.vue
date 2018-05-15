@@ -32,7 +32,7 @@
           </el-form-item>
           <el-form-item label="商品图片" prop="list_pic_url">
             <el-upload class="image-uploader" name="brand_pic"
-                       action="http://127.0.0.1:8360/admin/upload/brandPic" :show-file-list="true"
+                       action="/upload/brandPic" :show-file-list="true"
                        :on-success="handleUploadImageSuccess" :headers="uploaderHeader">
               <img v-if="infoForm.list_pic_url" :src="infoForm.list_pic_url" class="image-show">
               <i v-else class="el-icon-plus image-uploader-icon"></i>

@@ -27,7 +27,7 @@
                     </el-form-item>
                     <el-form-item label="图标" prop="wap_banner_url">
                         <el-upload class="image-uploader" name="wap_banner_pic"
-                                   action="http://127.0.0.1:8360/admin/upload/categoryWapBannerPic" :show-file-list="false"
+                                   action="/upload/categoryWapBannerPic" :show-file-list="false"
                                    :on-success="handleUploadImageSuccess" :headers="uploaderHeader">
                             <img v-if="infoForm.wap_banner_url" :src="infoForm.wap_banner_url" class="image-show">
                             <i v-else class="el-icon-plus image-uploader-icon"></i>
