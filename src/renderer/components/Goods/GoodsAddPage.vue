@@ -31,7 +31,7 @@
             <div class="form-tip"></div>
           </el-form-item>
           <el-form-item label="商品图片" prop="list_pic_url">
-            <el-upload class="image-uploader" name="brand_pic" 
+            <el-upload class="image-uploader" name="pic" 
             :action="actionGoodsPic" 
             :show-file-list="true" :on-success="handleUploadImageSuccess" :headers="uploaderHeader">
               <img v-if="infoForm.list_pic_url" :src="infoForm.list_pic_url" class="image-show">
